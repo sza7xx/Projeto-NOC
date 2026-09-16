@@ -1,4 +1,4 @@
-# Projeto Operação NOC — Repositório Modelo
+# Projeto Operação NOC 
 
 > **Investigação, Monitoramento e Observabilidade de Redes**  
 > Ubuntu Server + Redes + Wireshark + Zabbix + Grafana
@@ -23,12 +23,10 @@ Implementar e documentar um laboratório de **Network Operations Center (NOC)** 
 
 | Hostname | IP | Função |
 |---|---:|---|
-| `ZABBIX01` | `10.20.30.10` | Zabbix Server + MariaDB + Frontend |
-| `GRAFANA01` | `10.20.30.20` | Grafana |
-| `SRV-LINUX01` | `10.20.30.30` | Servidor monitorado |
-| Gateway | `10.20.30.1` | Saída da rede do laboratório |
-
-> As imagens abaixo são **ilustrações didáticas**. O aluno deve substituir pelas evidências reais do próprio laboratório.
+| `ZABBIX01` | `10.110.102.100` | Zabbix Server + MariaDB + Frontend |
+| `GRAFANA01` | `10.110.102.99` | Grafana |
+| `SRV-LINUX01` | `10.110.102.98` | Servidor monitorado |
+| `Gateway` | `10.110.102.1` | Saída da rede do laboratório |
 
 ## Sumário
 
