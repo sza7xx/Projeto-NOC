@@ -7,11 +7,11 @@
 
 | Campo | Exemplo |
 |---|---|
-| Aluno(a) / Grupo | João da Silva — Grupo Exemplo |
+| Aluno(a) / Grupo | Natan — Grupo N1 |
 | Turma | Defesa Cibernética — 2026 |
 | Professor | Frank Philson |
 | Data | 14/09/2026 |
-| Rede do laboratório | `10.20.30.0/24` |
+| Rede do laboratório | `10.110.102.0/24` |
 
 ## Objetivo
 
@@ -57,7 +57,7 @@ Implementar e documentar um laboratório de **Network Operations Center (NOC)** 
 Definir rede privada, CIDR, gateway, DNS, IPs e hostnames.
 
 ### Execução do exemplo
-Foi escolhida a rede privada `10.20.30.0/24`, evitando sobreposição com outras redes do laboratório.
+Foi escolhida a rede privada `10.110.102.0/24`, evitando sobreposição com outras redes do laboratório.
 
 ### Checkpoint
 **Tabela de endereçamento preenchida e diagrama da rede.**
