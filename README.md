@@ -87,7 +87,7 @@ Foram criadas três VMs Ubuntu Server 22.04 com 4 vCPU, 16 GB de RAM e 100 GB de
 - CPU/RAM/disco
 - Sistema operacional instalado
 
-![Fase 02 — VMs e sistemas operacionais](imagens/fase02-vms.png)
+![Fase 02 — VMs e sistemas operacionais](imagens/imagem2.png)
 
 ---
 
