@@ -155,7 +155,7 @@ No `SRV-LINUX01`, SSH e Apache foram instalados, habilitados e testados local e 
 - ss -lntp
 - curl
 
-![Fase 05 — Serviços SSH e HTTP](imagens/fase05-servicos.png)
+![Fase 05 — Serviços SSH e HTTP](imagens/imagem5.png)
 
 ---
 
@@ -178,7 +178,7 @@ Foi registrado o baseline da rede e capturados ICMP, ARP, DNS, TCP e TLS. O thre
 - ICMP/ARP/DNS
 - TLS/HTTPS
 
-![Fase 06 — Diagnóstico manual e Wireshark](imagens/fase06-wireshark.png)
+![Fase 06 — Diagnóstico manual e Wireshark](imagens/imagem6.png)
 
 ---
 
@@ -200,7 +200,7 @@ No `ZABBIX01`, MariaDB, Zabbix Server, frontend Apache/PHP e Agent 2 foram insta
 - Portas 80/10050/10051
 - Tela do frontend
 
-![Fase 07 — Zabbix Server](imagens/fase07-zabbix-server.png)
+![Fase 07 — Zabbix Server](imagens/imagem7.png)
 
 ---
 
@@ -222,7 +222,7 @@ O `SRV-LINUX01` foi cadastrado como host e o Agent 2 passou a enviar métricas p
 - Agent 2 ativo
 - Latest data
 
-![Fase 08 — Hosts e Zabbix Agent 2](imagens/fase08-agent2.png)
+![Fase 08 — Hosts e Zabbix Agent 2](imagens/imagem8.png)
 
 ---
 
@@ -245,7 +245,7 @@ Foram validados ICMP, HTTP, CPU, memória, disco, rede, uptime e a visão de Pro
 - CPU/memória/disco
 - Problems
 
-![Fase 09 — Monitoramento no Zabbix](imagens/fase09-monitoramento.png)
+![Fase 09 — Monitoramento no Zabbix](imagens/imagem9.png)
 
 ---
 
@@ -267,7 +267,7 @@ O Grafana foi instalado no `GRAFANA01` e o acesso ficou restrito à rede do labo
 - porta 3000
 - login funcional
 
-![Fase 10 — Grafana](imagens/fase10-grafana.png)
+![Fase 10 — Grafana](imagens/imagem10.png)
 
 ---
 
@@ -287,7 +287,7 @@ Foi criada a identidade `grafana_ro`, com permissão somente de leitura e token 
 - Permissão Read
 - Token mascarado
 
-![Fase 11 — API Zabbix](imagens/fase11-api-zabbix.png)
+![Fase 11 — API Zabbix](imagens/imagem11.png)
 
 ---
 
@@ -307,7 +307,7 @@ O plugin Zabbix foi habilitado e o data source `Zabbix-NOC` retornou `Save & tes
 - URL da API
 - Save & test OK
 
-![Fase 12 — Integração Grafana + Zabbix](imagens/fase12-integracao.png)
+![Fase 12 — Integração Grafana + Zabbix](imagens/imagem12.png)
 
 ---
 
@@ -327,7 +327,7 @@ O dashboard reúne disponibilidade dos hosts, CPU, memória, disco, rede, HTTP, 
 - Métricas com unidades
 - Período de tempo coerente
 
-![Fase 13 — Dashboard NOC](imagens/fase13-dashboard.png)
+![Fase 13 — Dashboard NOC](imagens/imagem13.png)
 
 ---
 
@@ -349,7 +349,7 @@ As regras de firewall e os privilégios foram revisados, evitando exposição de
 - Regras de acesso
 - Sem segredos no repositório
 
-![Fase 14 — Segurança](imagens/fase14-seguranca.png)
+![Fase 14 — Segurança](imagens/imagem14.png)
 
 ---
 
@@ -373,7 +373,7 @@ Foi simulado Apache parado. O host permaneceu acessível por ICMP, mas o HTTP fa
 - Correção
 - Validação
 
-![Fase 15 — Simulação de incidentes](imagens/fase15-incidentes.png)
+![Fase 15 — Simulação de incidentes](imagens/imagem15.png)
 
 ---
 
@@ -394,7 +394,7 @@ As evidências foram organizadas neste README, preservando o histórico técnico
 - Dificuldades
 - Melhorias futuras
 
-![Fase 16 — Evidências e documentação final](imagens/fase16-evidencias.png)
+![Fase 16 — Evidências e documentação final](imagens/imagem16.png)
 
 ---
 
