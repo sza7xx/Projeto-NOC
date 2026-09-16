@@ -66,7 +66,7 @@ Foi escolhida a rede privada `10.110.102.0/24`, evitando sobreposição com outr
 - Topologia/CIDR
 - Tabela de IPs e hostnames
 - Justificativa da faixa escolhida
-
+Faixa de rede já estava sendo utilizada no laboratório apenas aproveitei a mesma.   
 ![Fase 01 — Planejamento e endereçamento](imagens/imagem1.png)
 
 ---
@@ -76,11 +76,11 @@ Foi escolhida a rede privada `10.110.102.0/24`, evitando sobreposição com outr
 ### Objetivo
 Criar as três VMs e instalar o sistema operacional.
 
-### Execução do exemplo
-Foram criadas três VMs Ubuntu Server 24.04 com 4 vCPU, 16 GB de RAM e 100 GB de disco cada.
+### Execução
+Foram criadas três VMs Ubuntu Server 22.04 com 4 vCPU, 16 GB de RAM e 100 GB de disco cada.
 
 ### Checkpoint
-**ZABBIX01, GRAFANA01 e SRV-LINUX01 inicializados.**
+**natanzabbix, natangrafana e natansrv inicializados.**
 
 ### Evidências registradas
 - Tela das VMs
