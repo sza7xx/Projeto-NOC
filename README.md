@@ -96,7 +96,7 @@ Foram criadas três VMs Ubuntu Server 22.04 com 4 vCPU, 16 GB de RAM e 100 GB de
 ### Objetivo
 Configurar IPs estáticos, rota, gateway e DNS.
 
-### Execução do exemplo
+### Execução
 Os três servidores receberam IP estático e foram validados com `ip -br addr`, `ip route`, ping e resolução DNS.
 
 **Comandos/itens de validação:** `ip -br addr` • `ip route` • `ping` • `getent hosts`
@@ -110,7 +110,7 @@ Os três servidores receberam IP estático e foram validados com `ip -br addr`, 
 - ping entre VMs
 - resolução DNS
 
-![Fase 03 — IP estático e conectividade](imagens/fase03-conectividade.png)
+![Fase 03 — IP estático e conectividade](imagens/imagem3.png)
 
 ---
 
