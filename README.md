@@ -178,7 +178,9 @@ Foi registrado o baseline da rede e capturados ICMP, ARP, DNS, TCP e TLS. O thre
 - ICMP/ARP/DNS
 - TLS/HTTPS
 
-![Fase 06 — Diagnóstico manual e Wireshark](imagens/imagem6.png)
+![Fase 06 — Diagnóstico manual e Wireshark](imagens/imagem_wireshark.png)
+
+![Fase 06 — Diagnóstico manual e Wireshark](imagens/imagem_wireshark2.png)
 
 ---
 
@@ -200,7 +202,7 @@ No `ZABBIX01`, MariaDB, Zabbix Server, frontend Apache/PHP e Agent 2 foram insta
 - Portas 80/10050/10051
 - Tela do frontend
 
-![Fase 07 — Zabbix Server](imagens/imagem7.png)
+![Fase 07 — Zabbix Server](imagens/imagem_zabbix.png)
 
 ---
 
